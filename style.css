@@ -1,0 +1,138 @@
+body {
+  font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+h2 {
+  font-size: 34px;
+  text-align: center;
+}
+
+
+p {
+  font-size: 18px;
+}
+
+/* ==========
+PC用のスタイル
+========== */
+
+@media screen and (min-width: 768px) {
+
+/* 横幅設定 */
+body {
+  max-width: 1220px;
+  min-width: 960px;
+  margin: 0 auto 0 auto;
+}
+
+/* ヘッダー */
+header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 980px;
+  margin: 0 auto 0 auto;
+}
+
+.myplofile {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  margin: 20px;
+  padding: 9px 20px;
+  width: 220px;
+  height: 50px;
+  border: 1px solid;
+  text-align: center;
+}
+
+/* ナビゲーションレイアウト */
+nav {
+  padding-top: 31px;
+  text-align: right;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+/* ナビゲーションのリンク装飾 */
+nav > a {
+  text-decoration: none;
+  margin-left: 20px;
+}
+nav > a:link {
+  color: #0d0d0d;
+}
+nav > a:visited {
+  color: #0d0d0d;
+}
+nav > a:hover {
+  color: #0d0d0d;
+  text-decoration: underline;
+}
+nav > a:active {
+  color: #0d0d0d;
+}
+
+/* メインビジュアル */
+#mainvisual {
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
+
+
+/* About */
+.about-container {
+  display: flex;
+}
+
+.about-img > img {
+  position: relative;
+  margin: 26px auto 0 300px;
+  border-radius: 72px;
+}
+
+h3 {
+  margin: 26px auto 0 33px;
+  font-size: 24px;
+}
+
+/* Works */
+.works-container {
+  display: flex;
+  justify-content: center;
+  padding: 18px;
+}
+
+.item {
+  margin-top: -41px;
+  padding: 29px;
+  width: 15%;
+  text-align: center;
+}
+
+/* フッター */
+footer {
+  margin-top: -25px;
+  text-align: center;
+}
+}
+
+/*====================
+  スマートフォン用のスタイル
+  =====================*/
+
+  @media screen and (max-width: 480px) {
+    /* 480px以下に適用されるCSS（スマホ用） */
+    
+    @media screen and (min-width: 960px) {
+      img {
+        max-width: 960px;
+      }
+    }
+  }
