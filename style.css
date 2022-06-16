@@ -1,5 +1,4 @@
 body {
-  font-family: "Noto Sans", "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
   padding: 0;
   margin: 0;
   background-color: #ffffff;
@@ -41,6 +40,7 @@ h1 {
   font-size: 34px;
   border: 1px solid;
   text-align: center;
+  font-family: "Noto Sans JP";
 }
 
 /* ナビゲーションレイアウト */
@@ -49,6 +49,7 @@ nav {
   text-align: right;
   font-size: 34px;
   font-weight: bold;
+  font-family: "Noto Sans JP";
 }
 
 /* ナビゲーションのリンク装飾 */
@@ -83,6 +84,7 @@ nav > a:active {
 /* About */
 h2 {
   font-size: 34px;
+  font-family: "Noto Sans JP";
 }
 
 .about-container {
@@ -100,11 +102,13 @@ h2 {
 h3 {
   margin: 26px auto 24px 33px;
   font-size: 24px;
+  font-family: "Noto Sans JP";
 }
 
 p {
   font-size: 18px;
   text-align: center;
+  font-family: "Noto Sans JP";
 }
 
 /* Works */
@@ -155,12 +159,14 @@ h1 {
   padding: 9px;
   border: 1px solid;
   text-align: center;
+  font-family: "Noto Sans JP";
 }
 
 nav {
   padding-top: 30px;
   text-align: right;
   font-size: 24px;
+  font-family: "Noto Sans JP";
   font-weight: bold;
 }
 
@@ -197,6 +203,7 @@ nav > a:active {
 
 h2 {
   font-size: 24px;
+  font-family: "Noto Sans JP";
   font-weight: bold;
 }
 
@@ -204,10 +211,12 @@ h2 {
 h3 {
   margin: 26px auto -14px 11px;
   font-size: 18px;
+  font-family: "Noto Sans JP";
 }
 
 li {
   font-size: 10px;
+  font-family: "Noto Sans JP";
 }
 
 .works-container {
@@ -217,6 +226,7 @@ li {
 
 p {
   font-size: 14px;
+  font-family: "Noto Sans JP";
 }
 
 .item > img {
