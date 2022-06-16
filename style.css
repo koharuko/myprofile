@@ -24,7 +24,7 @@ PC用のスタイル
 /* 横幅設定 */
 body {
   max-width: 1220px;
-  min-width: 960px;
+  min-width: 768px;
   margin: 0 auto 0 auto;
 }
 
@@ -57,7 +57,6 @@ nav {
 /* ナビゲーションのリンク装飾 */
 nav > a {
   text-decoration: none;
-  margin-left: 20px;
 }
 nav > a:link {
   color: #000;
@@ -77,6 +76,8 @@ nav > a:active {
 #mainvisual {
   position: relative;
   margin: auto;
+  width: 960px;
+  height: auto;
   width: 100%;
   text-align: center;
 }
@@ -89,7 +90,8 @@ nav > a:active {
 }
 
 .about-img > img {
-  position: relative;
+  width: 141px;
+  height: auto;
   margin: 26px auto 0 300px;
   border-radius: 72px;
 }
@@ -108,7 +110,7 @@ h3 {
 
 .item > img {
   width: 179px;
-  height: 134px;
+  height: auto;
 }
 
 .item {
@@ -143,7 +145,7 @@ header {
 }
 
 h1 {
-  position: relative;
+
   border: 1px solid;
   width: 208px;
   padding: 10px;
@@ -159,7 +161,6 @@ nav {
 
 nav > a {
   text-decoration: none;
-  margin-left: 20px;
 }
 nav > a:link {
   color: #000;
@@ -184,7 +185,7 @@ nav > a:active {
 .about-img > img {
   position: relative;
   margin: 42px auto 0 auto;
-  border-radius: 72px;
+  border-radius: 150px;
 }
 
 h3 {
@@ -203,7 +204,7 @@ ul {
 .item > img {
   margin-top: 30px;
   width: 647px;
-  height: 580px;
+  height: auto;
 }
 
 footer {
