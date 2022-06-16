@@ -1,5 +1,5 @@
 body {
-  font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+  font-family: "Noto Sans" "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
 }
 
 h1 {
@@ -10,7 +10,6 @@ h2 {
   font-size: 34px;
   text-align: center;
 }
-
 
 p {
   font-size: 18px;
@@ -34,17 +33,13 @@ header {
   display: flex;
   justify-content: space-between;
   max-width: 980px;
-  margin: 0 auto 0 auto;
-}
-
-.myplofile {
-  display: flex;
-  justify-content: center;
+  margin: 0 208px 0 208px;
 }
 
 h1 {
+  position: relative;
   margin: 20px;
-  padding: 9px 20px;
+  padding: 9px;
   width: 220px;
   height: 50px;
   border: 1px solid;
@@ -65,23 +60,24 @@ nav > a {
   margin-left: 20px;
 }
 nav > a:link {
-  color: #0d0d0d;
+  color: #000;
 }
 nav > a:visited {
-  color: #0d0d0d;
+  color: #000;
 }
 nav > a:hover {
-  color: #0d0d0d;
+  color: #000;
   text-decoration: underline;
 }
 nav > a:active {
-  color: #0d0d0d;
+  color: #000;
 }
 
 /* メインビジュアル */
 #mainvisual {
   position: relative;
   margin: auto;
+  width: 100%;
   text-align: center;
 }
 
@@ -89,6 +85,7 @@ nav > a:active {
 /* About */
 .about-container {
   display: flex;
+  margin: 50px;
 }
 
 .about-img > img {
@@ -109,6 +106,11 @@ h3 {
   padding: 18px;
 }
 
+.item > img {
+  width: 179px;
+  height: 134px;
+}
+
 .item {
   margin-top: -41px;
   padding: 29px;
@@ -126,13 +128,87 @@ footer {
 /*====================
   スマートフォン用のスタイル
   =====================*/
+@media screen and (max-width: 767px) {
 
-  @media screen and (max-width: 480px) {
-    /* 480px以下に適用されるCSS（スマホ用） */
-    
-    @media screen and (min-width: 960px) {
-      img {
-        max-width: 960px;
-      }
-    }
-  }
+img {
+  max-width: 100%;
+}
+
+
+/* ヘッダー */
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  position: relative;
+  border: 1px solid;
+  width: 208px;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  padding-top: 31px;
+  text-align: right;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+nav > a {
+  text-decoration: none;
+  margin-left: 20px;
+}
+nav > a:link {
+  color: #000;
+}
+nav > a:visited {
+  color: #000;
+}
+nav > a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+nav > a:active {
+  color: #000;
+}
+
+/* About */
+.about-container {
+  display: flex;
+  margin: 50px;
+}
+
+.about-img > img {
+  position: relative;
+  margin: 42px auto 0 auto;
+  border-radius: 72px;
+}
+
+h3 {
+  margin: 26px auto 0 33px;
+  font-size: 24px;
+}
+
+ul {
+  margin-left: 30px;
+}
+
+.works-container {
+  text-align: center;
+}
+
+.item > img {
+  margin-top: 30px;
+  width: 647px;
+  height: 580px;
+}
+
+footer {
+  margin-top: 52px;
+  text-align: center;
+}
+
+} 
