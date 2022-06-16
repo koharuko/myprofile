@@ -2,6 +2,8 @@ body {
   font-family: "Noto Sans", "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
   padding: 0;
   margin: 0;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 h2 {
@@ -54,17 +56,17 @@ nav > a {
   text-decoration: none;
 }
 nav > a:link {
-  color: #000;
+  color: #000000;
 }
 nav > a:visited {
-  color: #000;
+  color: #000000;
 }
 nav > a:hover {
-  color: #000;
+  color: #000000;
   text-decoration: underline;
 }
 nav > a:active {
-  color: #000;
+  color: #000000;
 }
 
 /* メインビジュアル */
@@ -166,17 +168,17 @@ nav > a {
   text-decoration: none;
 }
 nav > a:link {
-  color: #000;
+  color: #000000;
 }
 nav > a:visited {
-  color: #000;
+  color: #000000;
 }
 nav > a:hover {
-  color: #000;
+  color: #000000;
   text-decoration: underline;
 }
 nav > a:active {
-  color: #000;
+  color: #000000;
 }
 
 /* About */
