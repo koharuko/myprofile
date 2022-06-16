@@ -1,19 +1,13 @@
 body {
-  font-family: "Noto Sans" "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
-}
-
-h1 {
-  font-size: 34px;
+  font-family: "Noto Sans", "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 h2 {
-  font-size: 34px;
   text-align: center;
 }
 
-p {
-  font-size: 18px;
-}
 
 /* ==========
 PC用のスタイル
@@ -42,13 +36,14 @@ h1 {
   padding: 9px;
   width: 220px;
   height: 50px;
+  font-size: 34px;
   border: 1px solid;
   text-align: center;
 }
 
 /* ナビゲーションレイアウト */
 nav {
-  padding-top: 31px;
+  padding: 31px 60px;
   text-align: right;
   font-size: 34px;
   font-weight: bold;
@@ -84,21 +79,30 @@ nav > a:active {
 
 
 /* About */
+h2 {
+  font-size: 34px;
+}
+
 .about-container {
   display: flex;
-  margin: 50px;
+  margin: 50px auto auto 280px;
 }
 
 .about-img > img {
   width: 141px;
   height: auto;
-  margin: 26px auto 0 300px;
+  margin-top: 26px;
   border-radius: 72px;
 }
 
 h3 {
-  margin: 26px auto 0 33px;
+  margin: 26px auto 24px 33px;
   font-size: 24px;
+}
+
+p {
+  font-size: 18px;
+  text-align: center;
 }
 
 /* Works */
@@ -145,17 +149,16 @@ header {
 }
 
 h1 {
-
+  font-size: 24px;
+  padding: 9px;
   border: 1px solid;
-  width: 208px;
-  padding: 10px;
   text-align: center;
 }
 
 nav {
-  padding-top: 31px;
+  padding-top: 30px;
   text-align: right;
-  font-size: 34px;
+  font-size: 24px;
   font-weight: bold;
 }
 
@@ -179,26 +182,39 @@ nav > a:active {
 /* About */
 .about-container {
   display: flex;
-  margin: 50px;
+  margin-top: 10px;
 }
 
 .about-img > img {
   position: relative;
-  margin: 42px auto 0 auto;
+  width: 100px;
+  height: auto;
+  margin: 10px auto 0 20px;
   border-radius: 150px;
 }
 
-h3 {
-  margin: 26px auto 0 33px;
+h2 {
   font-size: 24px;
+  font-weight: bold;
 }
 
-ul {
-  margin-left: 30px;
+
+h3 {
+  margin: 26px auto -14px 11px;
+  font-size: 18px;
+}
+
+li {
+  font-size: 10px;
 }
 
 .works-container {
+  display: block;
   text-align: center;
+}
+
+p {
+  font-size: 14px;
 }
 
 .item > img {
